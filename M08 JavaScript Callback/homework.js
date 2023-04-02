@@ -73,7 +73,6 @@ function filter(arrayOfStrings) {
    // return newArray;
    // una forma mas facil de hacerlo= 
     return arrayOfStrings.filter (element => element[0] === "a")
-   
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/

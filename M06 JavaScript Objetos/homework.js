@@ -9,7 +9,6 @@ function crearGato(nombre, edad) {
    // Tu código:
    let objeto = { nombre: nombre, edad: edad, meow: function () { return "Meow!" } }
    return objeto
-
 }
 
 function nuevoUsuario(nombre, email, password) {
@@ -101,9 +100,9 @@ function agregarAmigo(objetoUsuario, nuevoAmigo) {
    // El parámetro "objetoUsuario" tiene una propiedad llamada "amigos" igual a un arreglo.
    // Debes agregar el "nuevoAmigo" al final de este arreglo.
    // Retornar el objeto.
+   // Tu código:
    objetoUsuario["amigos"].push(nuevoAmigo)
    return objetoUsuario
-   // Tu código:
 }
 
 function pasarUsuarioAPremium(objetoMuchosUsuarios) {
@@ -114,7 +113,6 @@ function pasarUsuarioAPremium(objetoMuchosUsuarios) {
    // Tu código:
    for (let i = 0; i < objetoMuchosUsuarios.length; i++) {
       objetoMuchosUsuarios[i]["esPremium"] = true
-      //objetoMuchosUsuarios[i].esPremium=true
    }
    return objetoMuchosUsuarios
 }
@@ -146,7 +144,6 @@ function agregarMetodoCalculoDescuento(objetoProducto) {
    // Tu código:
    objetoProducto.calcularPrecioDescuento = function () { return this.precio - (this.precio * this.porcentajeDeDescuento) }
    return objetoProducto
-
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/

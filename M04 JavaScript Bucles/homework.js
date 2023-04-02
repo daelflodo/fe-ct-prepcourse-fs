@@ -92,7 +92,6 @@ function colors(color) {
          return "This is orange"
          break;
       default: return "Color not found"
-
    }
 }
 
@@ -217,8 +216,8 @@ function tieneTresDigitos(num) {
    // Si el número recibido tiene tres dígitos retornar true.
    // Caso contrario, retornar false.
    // Tu código:
-   var cont=0
-   /*for (let i = 0; i <= num; i++) {
+   /*var cont=0
+   for (let i = 0; i <= num; i++) {
      num=num/10
      cont++ 
    }

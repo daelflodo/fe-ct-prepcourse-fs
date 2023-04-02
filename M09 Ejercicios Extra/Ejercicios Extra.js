@@ -90,7 +90,6 @@ function deleteAbc(string) {
    // Tu tarea es eliminar las letras "a", "b" y "c" del string recibido.
    // Retorna el string sin estas letras.
    // Tu código:
-
    var str1 = ""
    var obj = { a: null, b: null, c: null }
    for (let i = 0; i < string.length; i++) {
@@ -107,23 +106,7 @@ function sortArray(arrayOfStrings) {
    // de la longitud de cada string.
    // [EJEMPLO]: ["You", "are", "beautiful", "looking"]  ---> [“You", "are", "looking", "beautiful"]
    // Tu código:
-   
-   //return  arrayOfStrings.sort((a, b) => a.length - b.length)
-   let array =[]
-   let a= arrayOfStrings
-   let menor =a[0].length
-   for (let i = 0; i < a.length; i++) {
-      for (let j = 0; j < a.length; j++) {
-         if (menor < a[j].length) {
-            array.push(a[j])
-            menor = a[i]
-         }else if(array.includes(a[j]) === false) {array.push(a[j])}
-         
-      }
-      
-   }
-   return array
-   
+   return  arrayOfStrings.sort((a, b) => a.length - b.length)
 }
 
 function buscoInterseccion(array1, array2) {

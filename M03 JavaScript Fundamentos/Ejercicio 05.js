@@ -18,9 +18,7 @@ function esPositivo(num) {
             return false
          }
       }
-      
    }
-   
 }
 
 function agregarSimboloExclamacion(str) {
